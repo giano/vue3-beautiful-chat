@@ -1,7 +1,5 @@
 import Launcher from './Launcher.vue'
-import VTooltip from 'v-tooltip'
 
-import 'v-tooltip/dist/v-tooltip.css'
 
 import emitter from './emitter'
 
@@ -22,7 +20,7 @@ const VueBeatifulChat = {
     this.componentName = options.componentName || defaultComponentName
 
     app.component(this.componentName, Launcher)
-    app.use(VTooltip)
+  
   }
 }
 

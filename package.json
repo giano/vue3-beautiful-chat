@@ -1,6 +1,6 @@
 {
   "name": "vue3-beautiful-chat",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "A simple and beautiful Vue 3 chat component backend agnostic.",
   "main": "index.js",
   "repository": "https://github.com/Sitronik/vue3-beautiful-chat.git",
@@ -25,8 +25,7 @@
     "kind-of": "6.0.3",
     "minimist": "1.2.3",
     "msgdown": "^1.0.2",
-    "tiny-emitter": "^2.1.0",
-    "v-tooltip": "^4.0.0-alpha.1"
+    "tiny-emitter": "^2.1.0"
   },
   "devDependencies": {
     "@rollup/plugin-dynamic-import-vars": "^1.1.1",
